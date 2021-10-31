@@ -21,7 +21,7 @@ a {
     text-decoration: none;
 }
 #header-style {
-    background-image: url('pic6.jpg');
+    background-image: url('/images/pic6.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;

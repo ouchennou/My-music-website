@@ -17,6 +17,13 @@ html {
     justify-content: flex-start;
     align-items: center;
 }
+.half-container {
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 a {
     text-decoration: none;
 }
@@ -137,7 +144,7 @@ span {
 }
 .box:hover {
     box-shadow: 0px 0px 5px #00c9a7 ;
-    transform: scale(1.1);
+    /*transform: scale(1.1)*/;
 }
 #artist .artist {
     max-width: 1200px;
@@ -148,6 +155,7 @@ span {
 }
 #artist .artist-header h1{
     font-size: 3rem;
+    text-align: center;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
@@ -162,11 +170,47 @@ span {
 }
 #artist .artist-img img{
     height: 100%;
-    width: 100%;
+    width: 80%;
+    margin-left: 2.5rem;
     object-fit: cover;
     border-radius: 10px;
 }
-
+#Join-us .Join-us {
+    flex-direction: column;
+    position: relative;
+}
+#Join-us .container {
+    height: 50vh;
+}
+#Join-us p{
+    line-height: 2.4rem;
+    font-weight: bolder;
+    padding: 3rem 2rem 0rem 3rem;
+}
+#Join-us a{
+    color: #00c9a7;
+}
+#Join-us a:hover{
+    color: white;
+}
+#footer .footer {
+    background-image: url('/images/pic8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    position: relative;
+}
+#footer ul{
+    list-style: none;
+}
 @keyframes text-showing {
     50% {
         width: 100%;
